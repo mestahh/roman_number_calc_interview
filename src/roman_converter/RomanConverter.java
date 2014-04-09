@@ -2,9 +2,12 @@ package roman_converter;
 
 public class RomanConverter {
 
-	public Object convert(String romanNumber) {
-		// TODO Auto-generated method stub
-		return 1;
+	public int convert(String romanNumber) {
+		if (romanNumber.equals("I")) {
+			return 1;
+		}
+		return 2;
+
 	}
 
 }
