@@ -3,11 +3,12 @@ package roman_converter;
 public class RomanConverter {
 
 	public int convert(String romanNumber) {
-		if (romanNumber.equals("I")) {
-			return 1;
+
+		int arabic = 0;
+		for (int i = 0; i < romanNumber.length(); i++) {
+			arabic++;
 		}
-		return 2;
+		return arabic;
 
 	}
-
 }

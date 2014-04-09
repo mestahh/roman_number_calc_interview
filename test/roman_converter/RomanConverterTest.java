@@ -15,13 +15,18 @@ public class RomanConverterTest {
 	}
 
 	@Test
-	public void it_should_convert_1_to_I() {
+	public void it_should_convert_I_to_1() {
 		assertEquals(testObj.convert("I"), 1);
 	}
 
 	@Test
-	public void it_should_convert_2_to_II() {
+	public void it_should_convert_II_to_2() {
 		assertEquals(testObj.convert("II"), 2);
+	}
+
+	@Test
+	public void it_should_convert_III_to_3() {
+		assertEquals(testObj.convert("III"), 3);
 	}
 
 }
