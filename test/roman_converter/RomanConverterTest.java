@@ -9,7 +9,7 @@ public class RomanConverterTest {
 	@Test
 	public void it_should_convert_1_to_I() {
 		RomanConverter converter = new RomanConverter();
-		assertEquals(converter.convert(1), 1);
+		assertEquals(converter.convert("I"), 1);
 	}
 
 }
