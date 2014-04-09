@@ -6,7 +6,11 @@ public class RomanConverter {
 
 		int arabic = 0;
 		for (int i = 0; i < romanNumber.length(); i++) {
-			arabic++;
+			if (romanNumber.charAt(i) == 'V') {
+				arabic += 5;
+			} else {
+				arabic++;
+			}
 		}
 		return arabic;
 

@@ -29,4 +29,9 @@ public class RomanConverterTest {
 		assertEquals(testObj.convert("III"), 3);
 	}
 
+	@Test
+	public void it_should_convert_V_to_5() {
+		assertEquals(testObj.convert("V"), 5);
+	}
+
 }
