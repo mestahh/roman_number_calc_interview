@@ -6,11 +6,14 @@ public class RomanConverter {
 		int previous = 0;
 		int arabic = 0;
 		int current = 0;
+
 		for (int i = 0; i < romanNumber.length(); i++) {
 			if (romanNumber.charAt(i) == 'V') {
 				current += 5;
 			} else if (romanNumber.charAt(i) == 'I') {
 				current++;
+			} else if (romanNumber.charAt(i) == 'X') {
+				current += 10;
 			}
 
 			if (previous < current && previous != 0) {
