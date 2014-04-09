@@ -10,6 +10,7 @@ public class RomanConverter {
 		values.put('V', 5);
 		values.put('X', 10);
 		values.put('I', 1);
+		values.put('L', 50);
 	}
 
 	public int convert(String romanNumber) {
